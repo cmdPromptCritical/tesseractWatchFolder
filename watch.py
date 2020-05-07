@@ -1,32 +1,43 @@
-import time, os
+import time, os, csv
 import cv2
 import pytesseract
+import logging
 from wand.image import Image
 from wand.display import display
+from wand.color import Color
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 from PyPDF2 import PdfFileMerger, PdfFileReader
 import ntpath, shutil
+
 #### CONFIG
-GRAYSCALE = True # recommended. enables to grayscale (can be used with THRESHOLD)
-THRESHHOLD = True # recommended. enables conversion to binary B/W
+GRAYSCALE = False # recommended. enables to grayscale (can be used with THRESHOLD)
+THRESHHOLD = False # recommended. enables conversion to binary B/W
 BLUR = False # recommended. enables slight bluring (removes salt/pepper noise)
 
 IMG_RES = 300 # recommend 300. Sets the resolution of the TIFF image to be OCR'd
 # TESSERACT LOCATION:
 pytesseract.pytesseract.tesseract_cmd = r"C:\Users\Richard\AppData\Local\Tesseract-OCR\tesseract.exe"
 
+# LOG FILE DIRECTORY:
+logging.basicConfig(filename='converted.log', filemode='w', level=logging.INFO)
+# OCR TXT FILE PATH
+ocrTxtFilePath = 'ocrTxt.csv'
+#### END CONFIG 
+
 def remove(path):
+    # removes file or folder recursively when passed an absolute path
     """ param <path> could either be relative or absolute. """
     if os.path.isfile(path) or os.path.islink(path):
         os.remove(path)  # remove the file
     elif os.path.isdir(path):
         shutil.rmtree(path)  # remove dir and all contains
     else:
-        raise ValueError("file {} is not a file or dir.".format(path))
+        raise ValueError(f'Warning: Could not delete. file {path} is not a file or dir.'.format(path))
 
 def on_created(event):
     if event.src_path[-4:] == '.pdf' or event.src_path[-4:] == '.PDF':
+        print(f'candidate: {event.src_path[-4:]}')
         ocrPdf(event.src_path)
 
 
@@ -42,8 +53,11 @@ def on_moved(event):
 def ocrPdf(src_path):
     filePathEnding = src_path.rfind('\\', )
     filename = src_path[filePathEnding+1:] # filename only miight be needed
-    filePath = src_path[:filePathEnding] # filename only miight be needed
+    filePath = src_path[:filePathEnding] # filepath only miight be needed
     filenameWoExt = filename[0:-4]
+    extracted_text = ' ' # holds OCR output
+    csvFile = open(ocrTxtFilePath, 'a')
+    ocrTxt = csv.writer(csvFile) # writes OCR output
 
     # excludes matches in the temp and exported folders
     # note: current setup will also exclude any other folder starting with 'tmp' and 'exported'
@@ -57,8 +71,8 @@ def ocrPdf(src_path):
     
     print(f"hey, {src_path} has been created!")
 
+    time.sleep(2) # allows for file to be copied
     tmpDir = f'.\\tmp\\{filenameWoExt}'
-
     if not os.path.exists(tmpDir):
         os.mkdir(tmpDir)
 
@@ -71,6 +85,10 @@ def ocrPdf(src_path):
 
             # OCR it! psm = 1 will recognize 2-column layouts.
             pdf = pytesseract.image_to_pdf_or_hocr(processedImg, extension='pdf', config='--psm 1')
+            text = pytesseract.image_to_string(processedImg,lang='eng', config='--psm 1')
+            # save extracted text to variable
+            print(text)
+            extracted_text = extracted_text + text
             # save pdf to temp path
             tmpSaveDir = f'{img_path[:-5]}.pdf'
             with open(tmpSaveDir, 'w+b') as f:
@@ -78,11 +96,14 @@ def ocrPdf(src_path):
                 print(f'saved temp pdf: {tmpSaveDir}')
                 tmpPdfFiles.append(tmpSaveDir)
         mergePdfs(tmpPdfFiles)
-
+        # save ocr to text file (the log)
+        logging.info('extraction successful, {filenameWoExt}, ')
+        # remove temporary tiff files
         remove(os.path.dirname(tiffFiles[0]))
         # save to pdf
         saveDir = f'.\\exported\\{filePath[6:]}\\{filenameWoExt}.pdf'
-
+        ocrTxt.writerow([filenameWoExt, extracted_text])
+        csvFile.close()
 
 def shredPdf(src_path, destDir):
     # shreds pdfs into single-paged images
@@ -98,10 +119,15 @@ def shredPdf(src_path, destDir):
             for i in range(pages):
                 #i.type = 'bilevel' # helps OCR
                 saveFilename = f'{destDir}/{src_path[2:-4]}_{i}.tiff'
-                Image(images[i]).save(filename=saveFilename) # this will force overwrite
+                with Image(images[i]) as im:
+                    im.background_color = Color('white') # Set white background.
+                    im.alpha_channel = 'remove'          # Remove transparency and replace with bg.
+                    im.save(filename=saveFilename) # this will force overwrite
                 tiffFiles.append(saveFilename)
-    except:
-        print('something went wrong when shredding PDF. Maybe not enough space? Maybe file locked?')
+    except Exception as e:
+        print(e)
+        logging.error(f'Could not open {src_path}. Doc is either locked, storage space ran out, or doc is password protected.')
+        print(f'Could not open {src_path}. Doc is either locked, storage space ran out, or doc is password protected.')
 
     #print(f'done shredding {src_path}!')
     return tiffFiles
@@ -143,7 +169,7 @@ def mergePdfs(pdfFiles):
     print(f'saved ' + f'\\exported\\{filename[:-6]}.pdf')
 
 if __name__ == "__main__":
-    patterns = ["*.pdf", "*.tiff"]
+    patterns = ["*.pdf", "*.PDF", "*.tiff"]
     ignore_patterns = ""
     ignore_directories = True
     case_sensitive = True

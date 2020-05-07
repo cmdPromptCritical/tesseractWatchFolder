@@ -1,0 +1,1496 @@
+00003 - Copy," Modelling Fission Product Releases Duc to UO2 Oxidation in a Steam Environment
+
+by R. Aboud, V. [1 Nath and R. Hu*
+
+AECL CANDU
+Fuel Branch
+Mississauga, Ontario.
+
+* Hydro—Quebec, Section Analyse
+Montreal, Quebec.
+
+Abstract
+
+Oxidation of UO2 exposed to steamcan resultin
+enhanced release of fission products from within the fuel
+grains. Several different approaches have been used to
+model the releases.
+
+In this paper, two approaches to modelling
+fission product release under steam oxidizing conditions
+are described and compared. They are:
+
+Enhanced grain growth accompanied by grain
+boundary sweeping, and
+
+Enhanced vacancy production leading to increase
+in the diffusion coefficient of. ‘fission gases in UO2.
+
+Two different models which use the first -
+
+approachare included in this paper along with one which
+uses the second approach. The results of the comparison
+are that the enhanced vacancy production model predicts
+higher releases than the enhanced grain growth models
+
+over relatively long periods of time. For short time spans, -
+
+the models yield similar predictions.
+
+L Introduction —
+
+In some postulated accident scenarios, fuel
+element failure can result in exposure of the UO) fuel
+pellets to steam for a significant period of time. Fuel
+which is exposed to steam can chemically react with it to
+form a higher oxide (i.e. UO2, where x is the deviation
+from stoichiometry). Oxidation can. cause enhanced
+fission product release from the fuel In safety analysis,
+estimates of the quantity and timing of fission preduct
+releases from failed fuel elements are required in order to
+ultimately assess the potential impact of the accident on
+the public. Hence it is important to develop our
+understanding of the releases of fission products under
+steam oxidizing conditions.
+
+Fission gas adatoms which are produced during
+uradiation of UO fuel can migrate through the matrix to
+
+basher/aboud
+
+papers/oxide/ra
+T991/June/1O |
+
+grain boundaries, from where they may be released, Gas
+atom movement may be controlled by either thermal (e.g.
+diffusion) or athermal (e.g. due to irradiation) processes.
+
+Fission products are assumed to be transported
+from UO) fuel grains to the grain boundaries by diffusion
+and by grain growth accompanied by
+sweeping/coliecting of fission products as the grain
+boundary moves [1].
+
+An important mechanism governing the release
+of fission products at high temperatures is the ‘intrinsic’
+(or classical) diffusion of gas atoms to grain boundaries,
+followed by the growth of channels leading to open
+
+. surfaces. However, at low temperatures, the observed
+
+releases cannot be explained by an extrapolation of the
+classical diffusion theory. Therefore, the releases at low
+temperatures are assumed to occur via irradiation
+enhanced athermal diffusion [2]. Furthermore, defects
+and vacancies within the UO2 can influence the mobility
+of gas atoms. For example, it is argued that as it moves
+through the lattice, a fission gas atom has a probability of
+capture and of escape from internal trapping sites (e.g.
+point defects, fission gas bubbles) [3}. The effects of
+these mechanisms are generally combined in an
+empirical ‘effective’ diffusion coefficient [2,3].
+
+Grain boundary sweeping occurs when bubbles
+containing fission gas and the grain boundaries on which
+they are located migrate due to grain growth, sweeping
+gas from the grains [4]. The “swept” gas is collected.on
+the grain boundary where it is available for subsequent
+release to void. ,
+
+An increase in the fuel oxygen to uranium (O/U)
+ratio leads to a direct enhancement of the release of
+fission products from the fuel matrix. In this paper,
+differert models which have been constructed to account
+for the effect of oxidation on fission product release are
+described and compared. The models are divided into two
+categories. The first category is comprised of two
+methods which model the enhanced release in steam asbasher/aboud
+
+resulting from an increase in the grain growth rate
+accompanied by prain boundary sweeping. The second is
+a simplified version of a recent model due to Lewis et al
+[5] which assumes that the releases result from an
+increase in the concentration of vacancies in oxidized
+UO2+x. The resulting enhancement of the diffusion
+coefficient is then used to estimate the releases.
+
+2. Oxidation
+
+There is a substantial amount of literature
+covering the subject of steam oxidation of UO2. The
+understanding of important processes involved in the
+oxidation reaction and in the observed enhanced release
+of fission products has evolved. considerably over the
+years.
+
+In 1968, Bittel et al [6] reported that steam
+oxidation was controlled by diffusion of oxygen through
+the UO, matrix, as opposed to being controlled by the
+reaction at the surface of the fuel. Bittel etal also reported
+accelerated grain growth for UO2 exposed to steam.
+
+However, in 1970, Carter and Lay [7]
+investigated the subject of the rate-limiting process for
+oxidation in a CO2/CO atmosphere. They concluded,
+based on the absence of a measurable oxygen gradient in
+their samples, that oxidation is controlled by the reaction
+at the solid/gas interface. No concentration gradient
+means that oxygen diffusion within the specimen is faster
+than oxygen transfer across the exposed surface.
+Therefore, the degree of oxidation is limited by the
+reaction at the interface. -
+
+Carter also found that oxidation rates were
+proportional to the ratio of surface area/volume and to the
+COz+CO partial pressure in a CO)+COtinert gas
+atmosphere. An expression for the oxidation rate was
+developed based on these results:
+dx/dt = a [xe — x()] (S/V) qd)
+where:
+
+a is the surface exchange coefficient of oxygen,
+X- is the equilibrium deviation from stoichiometry,
+x(t) is the deviation from stoichiometry at time t,
+S/V is the surface to volume ratio.
+
+Assuming that the fuel is initially
+stoichiometric (x(0) = 0), then the solution of the above
+differential equation is:
+
+x() =x, [ 1] —exp CaSyV) J (2)
+
+The equilibrium deviation from stoichiometry
+is defined by the oxygen potential of the gas phase. The
+
+iderra
+
+Papersiox:
+199t/June/10
+
+oxygen potenual in tum is a function of the oxygen partial
+pressure in the steam. A method for determining x, is
+described in reference [5]. x. may be interpreted as the
+thermodynamic limit of fuel oxidation during exposure Lo
+steam [8].
+
+The surface exchange coefficient has been
+determined experimentally by Cox et al [9] in the
+temperature range 1000-1600° C. Comparison with data
+from previous experiments suggest that the expression
+can be extrapolated to both higher and lower
+temperatures. The surface exchangecoefficient, a, can be
+calculated from the following correlation:
+
+a = 36.5 exp (-23500/T) (cm/sec) @)
+where T is the temperature in K.
+
+Cox and others have also reported that UO2
+oxidation in steam leads to an increase in the rate of grain
+growth compared to that observed in an_ inert
+environment [6,9,10]. It is argued that the activation
+energy of grain growth is influenced by the e presence of
+excess oxygen [1].
+
+3. Enhanced Grain Growth Model
+
+The phenomenon of enhanced grain growth in
+steam has been used to model the enhancement of fission
+product releases when UOz is exposed to steam [e.g.
+1,11].
+
+Two models of grain growth are described in
+this paper. Both are modifications of the same equation
+for grain growth in an inert atmosphere. The equation is
+based on in-reactor and laboratory measurements of
+grain size in UO2 samples [1]:
+
+d25 — do?5 = 2.22x10° At exp(—39200/T) (4)
+
+where
+d= final grain diameter (j1m)
+do = initial grain diameter (1m)
+T = temperature (K)
+At = time interval (seconds)
+
+The first model (Model A) is from a paper by
+Lau and Rance [1] and is based on the experiments of
+Belle and Lustman [10]. The modified grain growth
+equation is:
+
+d*5 — do@5 = 1.99 At exp(-10070/T)
+for T < 1800° C (5)
+
+d2-5 — do25 = 2.22x108 At exp(-39200/T)
+for T > 1800°C (6)The second model (Model B) is based on the
+same experimental data as Model A, but follows a more
+conservative approach. Belle and Lustman [10] reported
+that the resultant grain size obtained by heating UO? at
+1700° C in inert aumosphere is the same as that obtained
+by heating in steam at 1400° C for identical heating
+period. Thus, the model assumes that grain growth in
+steam obeys the same rate law as in inert gas except that
+the temperature dependence is conservatively shifted by
+400 degrees. For this model, the grain growth is derived
+from the following equation:
+
+d25 — dp?-5 = 2.22x10° At exp(-39200/(T+400)) (7)
+
+The two grain growth models are compared in
+figures 1 and 2. Figure 1 shows the parameter
+(d*5—dg?)/At versus inverse temperature for both
+models as well as for grain growth in an inert
+environment. The grain size predicted with Model B is
+greater than that predicted with Model A over the range
+of temperatures displayed (1400 to 2400° C). Figure 2
+shows the grain growth over 1 hour at 2400° C and at
+1800° C. Model B predicts faster grain growth than
+Model A. -
+
+For both models, grain boundary sweeping is
+assumed to be responsible for the increased fractional
+release. In calculating the fission product release due to
+grain boundary sweeping, it is assumed that the grain
+boundaries are satmrated. Therefore any fission gas
+amriving on the grain boundary is assumed to be
+immediately released. This assumption is generally good
+for high burnup fuel [1]. It is further assumed that grain
+growth is equiaxed as opposed to columnar. Both growth
+processes are known to occur, however equiaxed growth
+dominates when temperatures are lower than about 2100°
+C and large temperature gradients are not present in the
+
+UO,
+
+By making these assumptions, a simple
+expression for the fraction of fission gas released as a
+function of the increase in grain size is obtained:
+
+f = 1—do3/(dy + Ad)? (8)
+
+where:
+Ad is the increase in grain size due to equiaxed grain
+growth (jum).
+
+4, Enhanced Vacancy Production Model
+
+basher/aboud
+
+. When uranium dioxide becomes oxidized, the
+excess Oxygen is incorporated within the existing lattice
+as interstitials, resultifg in a reduction in the number of
+
+oxygen vacancies. There is a corresponding increase in
+
+papersioxide/ra
+1991/June/10
+
+the number of uranium vacancies. Lidiard {12] gives an
+equation to estimate the fraction of uranium vacancies as
+a function of the deviation from stoichiometric
+composition (x in UO2,,x). Lidiard’s equation is used to
+model the enhancement of the diffusion coefficient due
+to oxidation.
+
+4.1 Diffusion Coefficient
+
+In order to account for the excess of uranium
+vacancies in the calculation of fission product releases, it
+is necessary to model the influence of these vacancies on
+the diffusion of atoms through the grains.
+
+A recent interpretation of fission product
+diffusion mechanisms by Killeen and Turnbull [2]
+separates the diffusion process into three components,
+each of which is dominant in a different temperature
+regime:
+
+i. intrinsic diffusion at high temperatures (Dj),
+
+_ ii. irradiation enhanced vacancy production at
+
+intermediate temperatures (Dj;) and,
+
+iii, irradiation enhanced athermal diffusion at low
+temperatures (Djii).
+
+DT) =D, + Dat Da (9)
+
+D; =7.6 x 107! exp(-70000/RT) (10)
+
+Dy = 9x10}, (V+ Vy) ay
+
+Dg = 2x10 o (12)
+where
+
+D = effective diffusion coefficient (m2/sec)
+x = deviation from stoichiometry
+
+T = temperature (K)
+
+R = gas constant (Cal/mol K)
+
+jv = vacancy jump rate
+= 10!3 exp(—5.52x104/RT) sec! (13)
+
+V = irradiation—induced vacancy concentration
+
+Vu = uranium vacancy concentration (Lidiard’s
+equation [12])
+
+$ = fission rate (fissions/m} sec)
+
+and
+
+V = (9x10-5+100Vy) / 200-
+{[1+0.08 /j(9x10-> + 100Vy)7]2 - 1} (14)
+Vy =Sx2/Fo? - [1/2 + Fo/x? + 0.5 (1+4Fo/x2)2] (15)
+
+whereS = exp (-147200/RT) (16)
+Fo = exp(-71300/RT) (17)
+
+The model proposed by Lewis et al [5] uses the
+diffusion coefficient described above to modify the
+empirical one in the ANS 5.4 [13] model employed in
+CANDU fuel codes such as ELESIM [14]. Thus the ANS
+5.4 diffusion coefficient is multiplied by a correction
+factor H(x) to account for deviation from stoichiometry.
+
+If Ds.4is the diffusion coefficient in the ANS 5.4
+model, then
+
+D’5.4=Ds.4- H(x) (18)
+where
+H(x) = D(x,T) / D(x=0,T) (19)
+
+The fractional releases are calculated using the
+Booth model [15] which gives the cumulative release
+from the grains f:
+
+f=6-(D’s,4 t/ra2)¥/2 — 3 D’s.4 t/a? (20)
+
+where
+D’s.4= modified diffusion coefficient (m2/sec)
+t= time (sec)
+a= grain radius (m)
+
+This method of calculating the fission product
+release is a simplification of the model described in
+reference 5, where the enhanced diffusion coefficient was
+incorporated into the ELESIM fuel code.
+
+As in models A and B, it is assumed that the
+grain boundaries are saturated, and that any fission gas
+arriving on the grain boundary is immediately released.
+
+42 Deviation from Stoichiometry
+
+In order to use this model, it is necessary to
+estimate the deviation from stoichiometry of the uranium
+dioxide which is exposed to steam (x in UO»,,). The
+method used is the one reported in section 2. The results
+are shown in figures 3 and 4. Figure 3 shows the variation
+
+~ of the degree of oxidation with time for various
+
+‘
+
+ashertaboud
+
+temperatures. The oxidation rate is much more rapid as
+the temperature increases. Figure 4 shows the correction
+factor (H(x) calculated using equation 19) as a function
+
+‘«» O£x for temperatures ranging from 700 to 2200° C. Little
+
+enhancement is predicted at low temperatures (700 to
+1000° C) unless the fuel reaches a state of oxidation
+around UO z;. However at higher temperatures, the
+correction factor can-be 1000 or greater. The factor is
+highest around 1400°C.
+
+ides/ra
+
+apersjox
+391/June/10
+
+5. Comparison =
+
+A comparison of the fission product releases
+predicted by each model is shown in figures 5, 6 and 7.
+The models are designated as follows:
+
+Model A: Enhanced grain growth model suggested by
+Lau & Rance (see section 3)
+
+Model B: Enhanced grain growth modelled by 400°
+temperature shift (see section 3)
+
+Model C: Enhanced vacancy production model
+suggested by Lewis et al (see section 4)
+
+In all the simulations, the initial grain size (‘do’
+in equations 4-8; ‘2a’ in equation 20) was chosen to be
+7.5 yum. The UQ) surface to volume ratio, which is used
+in the calculation of the deviation from stoichiometry
+(equations 1 and 2) was determined assuming a stack with
+diameter 1.2 cm. and length SO cm. (roughly the
+dimensions of the fuel within a CANDU fuel element).
+The resulting value for S/V is 3.37 cml.
+
+The releases plotted in figures 5, 6 and 7 were
+calculated differently for Models A & B than for Model
+C. Total releases predicted by model C are calculated with
+equation 20 using the enhanced diffusion coefficient
+(equation 18) which accounts for both ‘normal’ diffusion
+and steam enhancement. In models A & B only the
+releasés due to steam enhanced grain growth are
+calculated using equation 8. In order to compare the
+models, the fractional release by diffusion in
+stoichiometric UO, (i.e. using equation 20 with the
+unmodified ANS 5.4 diffusion coefficient) was also
+calculated and superimposed on the oxidation-induced
+release for models A & B.
+
+Figure 5 shows the predictions of each model at
+constant temperature for a hold time of 200 seconds.
+Model C predicts more release than both A and B at
+temperatures above about 1500° C. Below this
+temperature, the predicted releases are approximately the
+same for all three models. Above 1800° C, Model C
+predicts 100 % release of fission products after 200
+seconds. Models B & C releases reach 100 % at higher
+temperatures.
+
+Figure 6 show the variation of releases with time
+at 1400° C over one hour (3600 seconds). The predicted
+releases are low (< 10%) forall models until about 900
+seconds after the start of oxidation. For the first 900
+seconds, Model B predicts higher releases than the other
+two models (e.g. -7% for Model B vs ~5% for the other
+twoatt=420 seconds). Afterwards, Model C predictions
+are higher and Models A and B predict slower rates of
+release than model C. After one hour at 1400° C, Model
+C predicts slightly less than double the fractional release
+calculated using Model B.Figure7 shows the releases for
+isothermal oxidation at 1800° C over 1 hour. Model Cpredicts 100 % release within roughly 6 minutes.
+Calculations using Model B also result in 100 % release,
+but only after about 14 minutes.
+
+Model C predicts a release rate which is
+increasing with time over the time period shown in figure
+6. This is to be expected because the deviation from
+stoichiometry of the fuel is increasing (see figure 3) and
+it is still far from reaching its equilibrium composition.
+Moreover, the fractional releases are low, therefore there
+remains an abundant supply of fission gas available for
+release. The two other models predict decreasing rates of
+release. The curves in figure 2 show that the grain growth
+rate slows down with time and this is reflected in the
+fractional release rate which is also decreasing with time
+(e.g figures 6 & 7).
+
+6. Conclusions
+
+Two very different approaches to modelling
+fission product releases from UO} fuel which is exposed
+to steam were compared. One approach relates the
+observed increase in releases to enhanced grain growth
+and the other to enhanced diffusion of gas atoms and
+bubbles through the grain. Two different models which
+are based on the first approach were used (Models A and
+B), along with one which was based on the second
+approach (Model C).
+
+The comparison revealed some similarities in
+the trends predicted by the three models, particularly in
+the short term. At low temperatures and for short periods
+of time, the models predict roughly the same fractional
+release.
+
+At relatively high temperatures, model C
+predicts faster release of fission products than the other
+two. Over long periods of time the accumulated releases
+calculated using model C are also greater, even at low
+temperatures.
+
+7. References
+
+1. J.HLK. Lau and EF Rance, ‘‘Modelling Transient
+Fission Product Release from UO2 Fuel’’,
+Presented at the 6“ CNS Conference, Ottawa,
+Canada, 1985.
+
+2. J.C. Killeen and J.A. Tumbull, ‘An Experimental
+and Theoretical Treatment of the Release of 8>Kr
+from Hyperstoichiometric Uranium Dioxide”,
+Procedures of the Workshop on Chemical
+Reactivity of Oxide Fuel and Fission Product
+Release, Gloucestershire, England, April 7-9,
+1987, p. 387-404, Central Electricity Generating
+Board.
+
+3. G.T. Lawrence, *A Review of the Diffusion
+Coefficient of Fission—Product Rare Gases in
+
+10.
+-.- WAPD-184, Paris Fuel Element Technology
+11.
+
+12,
+
+14,
+
+15.
+
+Uranium Dioxide”, Journal of Nuclear Matertals,
+71, (1978) 195-218.
+
+M.J.F. Nodey and LJ. Hastings, “A
+Microstructure-Dependent Model for Fission
+Product Gas Release and Swelling in UO) Fuel”,
+Nuclear Engineering and Design, Vol. 56, pp. 163,
+1980.
+
+BJ. Lewis, F.C. Iglesias, D.S. Cox and E.
+Gheorghiu, “A Model for Fission Gas Release and
+Fuel Oxidation Behaviour for Defected Fuel
+Elements”, Nuclear Technology, Vol. 92,
+December 1990.
+
+J.T. Bittel, L.H. Sjohdal and J.F. White, “Steam
+Oxidation Kinetics and Oxygen Diffusion in UO2
+at High Temperatures”, Journal of the American
+Ceramic Society, Volume 52, Number 8, 446,
+(1968).
+
+RE. Carter, K.W. Lay, “Surface—Controlled
+Oxidation-Reduction of UO”, Journal of
+Nuclear Materials, 36, (1970) 77.
+
+D.R. Olander, “Oxidation of UO2 by High
+Pressure Steam”, Nuclear Technology, Vol. 74,
+August 1986.
+
+D.S. Cox, F.C. Igiesias, CE.L. Hunt, N.A. Keller,
+R_D. Barrand, J.R. Mitchell and R-F. O’Connor,
+“Oxidation of UO in Air and Steam with
+Relevance to Fission Product Release”,
+Proceedings of the Symposium on Chemical
+Phenomena Associated with Radioactivity
+Releases During Severe Nuclear Plant Accidents,
+Anaheim, California, U.S.A., September 9-12,
+1986. Report NUREG/CP-0078.
+
+J. Bélie and B. Lustman, “Properties of UQ2”,
+
+Conference, 1957.
+
+D. Cubicciotti, “A Model for Release of Fission
+Gases and Volatile Fission Products from
+Irradiated UQ2 in Steam Environment”, Nuclear
+Technology, Vol. 53, April 1981.
+
+AB. Lidiard, “‘Self—Diffusion of Uranium in
+
+U0 2”, Journal of Nuclear Materials, 19, (1966)
+106-108.
+
+. “Background and Derivation of ANS-5.4 Standard
+
+Fission Product Release Model”, U.S. Nuclear
+Regulatory Commission, NUREG/CR-2507, 1982
+January.
+
+M.J.E. Notley, “ELESIM: A Computer Code for
+Predicting the Performance of Nuclear Fuel
+Elements”, Nuclear Technology, Volume 44
+(1979) 445.
+
+A.H. Booth, “A Method of Calculating Fission
+Gas Diffusion from UO? Fuel and its Application
+
+bashertaboud 5
+papersioxide/ra
+1991/June/10aasher/aboud
+
+sapersloxie/ra.
+1991/June/10
+
+to the X-2-f Loop Test”, CRDC-721, AECL No.
+496, September 1957.Figure 1 : Grain Growth Kinetics
+
+10°
+
+ 
+
+3.5 4.0 4.5 5.0 5.5 6.0
+vT* 10*K'
+
+Figure 2 : Grain Growth at 1800 and 2400 °C
+
+—~ 2400°C
+
+55 . : a
+
+Model A _-—
+
+ 
+
+50
+Model B —_
+
+   
+
+& 8
+
+Grain size (um)
+8
+
+25 < ; 2400 °C
+20 /
+/ Z - 1800°C
+15 nn
+10 & a
+1800 °C
+
+a 300 600 900 1200 1500 1800 2100 2400 2700 3000 3300. 3600
+Time (seconds)Figure 3 : UO, oxidation over 20 minutes _ Figure 4 ; H factor versus deviation trom stalchlometry
+
+  
+
+ 
+
+   
+
+0.20 4400
+Ted000"" C ‘
+TalRO0* O 1900 LEGEND
+048 1 :Ta700*C 7
+1200 16 Taz200°C ,
+0.46 Interval 100° C
+"" 1100 10
+0.14 1000 ""
+Tail?00*C 900 8
+Bo.12 ' 82
+100
+Hx) 1a
+£ 0,40 700 14
+too ‘8
+0.08 6
+800
+6.08 4o0
+TalB00* C
+0,04 400 Lp
+200 Y 5
+0.02 ‘ fo
+Ta1a00"" ¢ 100F Zea 1
+6.00 s : Tali0oes rs = r 42,4
+6 2 4 8 6 10 12 4 10 18 20 0,00 6.08 0.10 0.15 0.20 0.25
+Time (rtrAes} Deviation trom stoichiometry
+Figure 6 : Total fractlonal releases for each model
+after 200 seconds at constant temperature
+1.0
+/
+0.0
+6.8
+0.7
+i 0.8
+0.8
+OA
+0.3
+02
+O.4
+0.0 renee eenensnnecniniaytumntantniarennalinttemetscienansuceraied
+1000 1200 1400 1000 1000 2000 2200 2400
+
+Temperature {* C}Figure 6 : Releases predicted by three models at 1400° C
+
+0.9
+
+0.8
+
+0.7
+
+Fraction released
+° °
+a ao
+
+2
+am
+
+-_——
+
+--
+-_——
+
+°
+bs
+
+02
+
+ 
+
+oa 300 606 900 1200 1500 1800 2100 2400 2700 3000 3300 3600
+Time (seconds)
+
+Figure 7 : Releases predicted by three models at 1800° C
+
+Fractlon released
+°
+oO
+
+°
+»
+
+ 
+
+0 300 600 900 1200 1500 1800 2100 2400 2700 3000 3300 3600
+Time (seconds}"
+00003 - Copy," Modelling Fission Product Releases Duc to UO2 Oxidation in a Steam Environment
+
+by R. Aboud, V. [1 Nath and R. Hu*
+
+AECL CANDU
+Fuel Branch
+Mississauga, Ontario.
+
+* Hydro—Quebec, Section Analyse
+Montreal, Quebec.
+
+Abstract
+
+Oxidation of UO2 exposed to steamcan resultin
+enhanced release of fission products from within the fuel
+grains. Several different approaches have been used to
+model the releases.
+
+In this paper, two approaches to modelling
+fission product release under steam oxidizing conditions
+are described and compared. They are:
+
+Enhanced grain growth accompanied by grain
+boundary sweeping, and
+
+Enhanced vacancy production leading to increase
+in the diffusion coefficient of. ‘fission gases in UO2.
+
+Two different models which use the first -
+
+approachare included in this paper along with one which
+uses the second approach. The results of the comparison
+are that the enhanced vacancy production model predicts
+higher releases than the enhanced grain growth models
+
+over relatively long periods of time. For short time spans, -
+
+the models yield similar predictions.
+
+L Introduction —
+
+In some postulated accident scenarios, fuel
+element failure can result in exposure of the UO) fuel
+pellets to steam for a significant period of time. Fuel
+which is exposed to steam can chemically react with it to
+form a higher oxide (i.e. UO2, where x is the deviation
+from stoichiometry). Oxidation can. cause enhanced
+fission product release from the fuel In safety analysis,
+estimates of the quantity and timing of fission preduct
+releases from failed fuel elements are required in order to
+ultimately assess the potential impact of the accident on
+the public. Hence it is important to develop our
+understanding of the releases of fission products under
+steam oxidizing conditions.
+
+Fission gas adatoms which are produced during
+uradiation of UO fuel can migrate through the matrix to
+
+basher/aboud
+
+papers/oxide/ra
+T991/June/1O |
+
+grain boundaries, from where they may be released, Gas
+atom movement may be controlled by either thermal (e.g.
+diffusion) or athermal (e.g. due to irradiation) processes.
+
+Fission products are assumed to be transported
+from UO) fuel grains to the grain boundaries by diffusion
+and by grain growth accompanied by
+sweeping/coliecting of fission products as the grain
+boundary moves [1].
+
+An important mechanism governing the release
+of fission products at high temperatures is the ‘intrinsic’
+(or classical) diffusion of gas atoms to grain boundaries,
+followed by the growth of channels leading to open
+
+. surfaces. However, at low temperatures, the observed
+
+releases cannot be explained by an extrapolation of the
+classical diffusion theory. Therefore, the releases at low
+temperatures are assumed to occur via irradiation
+enhanced athermal diffusion [2]. Furthermore, defects
+and vacancies within the UO2 can influence the mobility
+of gas atoms. For example, it is argued that as it moves
+through the lattice, a fission gas atom has a probability of
+capture and of escape from internal trapping sites (e.g.
+point defects, fission gas bubbles) [3}. The effects of
+these mechanisms are generally combined in an
+empirical ‘effective’ diffusion coefficient [2,3].
+
+Grain boundary sweeping occurs when bubbles
+containing fission gas and the grain boundaries on which
+they are located migrate due to grain growth, sweeping
+gas from the grains [4]. The “swept” gas is collected.on
+the grain boundary where it is available for subsequent
+release to void. ,
+
+An increase in the fuel oxygen to uranium (O/U)
+ratio leads to a direct enhancement of the release of
+fission products from the fuel matrix. In this paper,
+differert models which have been constructed to account
+for the effect of oxidation on fission product release are
+described and compared. The models are divided into two
+categories. The first category is comprised of two
+methods which model the enhanced release in steam asbasher/aboud
+
+resulting from an increase in the grain growth rate
+accompanied by prain boundary sweeping. The second is
+a simplified version of a recent model due to Lewis et al
+[5] which assumes that the releases result from an
+increase in the concentration of vacancies in oxidized
+UO2+x. The resulting enhancement of the diffusion
+coefficient is then used to estimate the releases.
+
+2. Oxidation
+
+There is a substantial amount of literature
+covering the subject of steam oxidation of UO2. The
+understanding of important processes involved in the
+oxidation reaction and in the observed enhanced release
+of fission products has evolved. considerably over the
+years.
+
+In 1968, Bittel et al [6] reported that steam
+oxidation was controlled by diffusion of oxygen through
+the UO, matrix, as opposed to being controlled by the
+reaction at the surface of the fuel. Bittel etal also reported
+accelerated grain growth for UO2 exposed to steam.
+
+However, in 1970, Carter and Lay [7]
+investigated the subject of the rate-limiting process for
+oxidation in a CO2/CO atmosphere. They concluded,
+based on the absence of a measurable oxygen gradient in
+their samples, that oxidation is controlled by the reaction
+at the solid/gas interface. No concentration gradient
+means that oxygen diffusion within the specimen is faster
+than oxygen transfer across the exposed surface.
+Therefore, the degree of oxidation is limited by the
+reaction at the interface. -
+
+Carter also found that oxidation rates were
+proportional to the ratio of surface area/volume and to the
+COz+CO partial pressure in a CO)+COtinert gas
+atmosphere. An expression for the oxidation rate was
+developed based on these results:
+dx/dt = a [xe — x()] (S/V) qd)
+where:
+
+a is the surface exchange coefficient of oxygen,
+X- is the equilibrium deviation from stoichiometry,
+x(t) is the deviation from stoichiometry at time t,
+S/V is the surface to volume ratio.
+
+Assuming that the fuel is initially
+stoichiometric (x(0) = 0), then the solution of the above
+differential equation is:
+
+x() =x, [ 1] —exp CaSyV) J (2)
+
+The equilibrium deviation from stoichiometry
+is defined by the oxygen potential of the gas phase. The
+
+iderra
+
+Papersiox:
+199t/June/10
+
+oxygen potenual in tum is a function of the oxygen partial
+pressure in the steam. A method for determining x, is
+described in reference [5]. x. may be interpreted as the
+thermodynamic limit of fuel oxidation during exposure Lo
+steam [8].
+
+The surface exchange coefficient has been
+determined experimentally by Cox et al [9] in the
+temperature range 1000-1600° C. Comparison with data
+from previous experiments suggest that the expression
+can be extrapolated to both higher and lower
+temperatures. The surface exchangecoefficient, a, can be
+calculated from the following correlation:
+
+a = 36.5 exp (-23500/T) (cm/sec) @)
+where T is the temperature in K.
+
+Cox and others have also reported that UO2
+oxidation in steam leads to an increase in the rate of grain
+growth compared to that observed in an_ inert
+environment [6,9,10]. It is argued that the activation
+energy of grain growth is influenced by the e presence of
+excess oxygen [1].
+
+3. Enhanced Grain Growth Model
+
+The phenomenon of enhanced grain growth in
+steam has been used to model the enhancement of fission
+product releases when UOz is exposed to steam [e.g.
+1,11].
+
+Two models of grain growth are described in
+this paper. Both are modifications of the same equation
+for grain growth in an inert atmosphere. The equation is
+based on in-reactor and laboratory measurements of
+grain size in UO2 samples [1]:
+
+d25 — do?5 = 2.22x10° At exp(—39200/T) (4)
+
+where
+d= final grain diameter (j1m)
+do = initial grain diameter (1m)
+T = temperature (K)
+At = time interval (seconds)
+
+The first model (Model A) is from a paper by
+Lau and Rance [1] and is based on the experiments of
+Belle and Lustman [10]. The modified grain growth
+equation is:
+
+d*5 — do@5 = 1.99 At exp(-10070/T)
+for T < 1800° C (5)
+
+d2-5 — do25 = 2.22x108 At exp(-39200/T)
+for T > 1800°C (6)The second model (Model B) is based on the
+same experimental data as Model A, but follows a more
+conservative approach. Belle and Lustman [10] reported
+that the resultant grain size obtained by heating UO? at
+1700° C in inert aumosphere is the same as that obtained
+by heating in steam at 1400° C for identical heating
+period. Thus, the model assumes that grain growth in
+steam obeys the same rate law as in inert gas except that
+the temperature dependence is conservatively shifted by
+400 degrees. For this model, the grain growth is derived
+from the following equation:
+
+d25 — dp?-5 = 2.22x10° At exp(-39200/(T+400)) (7)
+
+The two grain growth models are compared in
+figures 1 and 2. Figure 1 shows the parameter
+(d*5—dg?)/At versus inverse temperature for both
+models as well as for grain growth in an inert
+environment. The grain size predicted with Model B is
+greater than that predicted with Model A over the range
+of temperatures displayed (1400 to 2400° C). Figure 2
+shows the grain growth over 1 hour at 2400° C and at
+1800° C. Model B predicts faster grain growth than
+Model A. -
+
+For both models, grain boundary sweeping is
+assumed to be responsible for the increased fractional
+release. In calculating the fission product release due to
+grain boundary sweeping, it is assumed that the grain
+boundaries are satmrated. Therefore any fission gas
+amriving on the grain boundary is assumed to be
+immediately released. This assumption is generally good
+for high burnup fuel [1]. It is further assumed that grain
+growth is equiaxed as opposed to columnar. Both growth
+processes are known to occur, however equiaxed growth
+dominates when temperatures are lower than about 2100°
+C and large temperature gradients are not present in the
+
+UO,
+
+By making these assumptions, a simple
+expression for the fraction of fission gas released as a
+function of the increase in grain size is obtained:
+
+f = 1—do3/(dy + Ad)? (8)
+
+where:
+Ad is the increase in grain size due to equiaxed grain
+growth (jum).
+
+4, Enhanced Vacancy Production Model
+
+basher/aboud
+
+. When uranium dioxide becomes oxidized, the
+excess Oxygen is incorporated within the existing lattice
+as interstitials, resultifg in a reduction in the number of
+
+oxygen vacancies. There is a corresponding increase in
+
+papersioxide/ra
+1991/June/10
+
+the number of uranium vacancies. Lidiard {12] gives an
+equation to estimate the fraction of uranium vacancies as
+a function of the deviation from stoichiometric
+composition (x in UO2,,x). Lidiard’s equation is used to
+model the enhancement of the diffusion coefficient due
+to oxidation.
+
+4.1 Diffusion Coefficient
+
+In order to account for the excess of uranium
+vacancies in the calculation of fission product releases, it
+is necessary to model the influence of these vacancies on
+the diffusion of atoms through the grains.
+
+A recent interpretation of fission product
+diffusion mechanisms by Killeen and Turnbull [2]
+separates the diffusion process into three components,
+each of which is dominant in a different temperature
+regime:
+
+i. intrinsic diffusion at high temperatures (Dj),
+
+_ ii. irradiation enhanced vacancy production at
+
+intermediate temperatures (Dj;) and,
+
+iii, irradiation enhanced athermal diffusion at low
+temperatures (Djii).
+
+DT) =D, + Dat Da (9)
+
+D; =7.6 x 107! exp(-70000/RT) (10)
+
+Dy = 9x10}, (V+ Vy) ay
+
+Dg = 2x10 o (12)
+where
+
+D = effective diffusion coefficient (m2/sec)
+x = deviation from stoichiometry
+
+T = temperature (K)
+
+R = gas constant (Cal/mol K)
+
+jv = vacancy jump rate
+= 10!3 exp(—5.52x104/RT) sec! (13)
+
+V = irradiation—induced vacancy concentration
+
+Vu = uranium vacancy concentration (Lidiard’s
+equation [12])
+
+$ = fission rate (fissions/m} sec)
+
+and
+
+V = (9x10-5+100Vy) / 200-
+{[1+0.08 /j(9x10-> + 100Vy)7]2 - 1} (14)
+Vy =Sx2/Fo? - [1/2 + Fo/x? + 0.5 (1+4Fo/x2)2] (15)
+
+whereS = exp (-147200/RT) (16)
+Fo = exp(-71300/RT) (17)
+
+The model proposed by Lewis et al [5] uses the
+diffusion coefficient described above to modify the
+empirical one in the ANS 5.4 [13] model employed in
+CANDU fuel codes such as ELESIM [14]. Thus the ANS
+5.4 diffusion coefficient is multiplied by a correction
+factor H(x) to account for deviation from stoichiometry.
+
+If Ds.4is the diffusion coefficient in the ANS 5.4
+model, then
+
+D’5.4=Ds.4- H(x) (18)
+where
+H(x) = D(x,T) / D(x=0,T) (19)
+
+The fractional releases are calculated using the
+Booth model [15] which gives the cumulative release
+from the grains f:
+
+f=6-(D’s,4 t/ra2)¥/2 — 3 D’s.4 t/a? (20)
+
+where
+D’s.4= modified diffusion coefficient (m2/sec)
+t= time (sec)
+a= grain radius (m)
+
+This method of calculating the fission product
+release is a simplification of the model described in
+reference 5, where the enhanced diffusion coefficient was
+incorporated into the ELESIM fuel code.
+
+As in models A and B, it is assumed that the
+grain boundaries are saturated, and that any fission gas
+arriving on the grain boundary is immediately released.
+
+42 Deviation from Stoichiometry
+
+In order to use this model, it is necessary to
+estimate the deviation from stoichiometry of the uranium
+dioxide which is exposed to steam (x in UO»,,). The
+method used is the one reported in section 2. The results
+are shown in figures 3 and 4. Figure 3 shows the variation
+
+~ of the degree of oxidation with time for various
+
+‘
+
+ashertaboud
+
+temperatures. The oxidation rate is much more rapid as
+the temperature increases. Figure 4 shows the correction
+factor (H(x) calculated using equation 19) as a function
+
+‘«» O£x for temperatures ranging from 700 to 2200° C. Little
+
+enhancement is predicted at low temperatures (700 to
+1000° C) unless the fuel reaches a state of oxidation
+around UO z;. However at higher temperatures, the
+correction factor can-be 1000 or greater. The factor is
+highest around 1400°C.
+
+ides/ra
+
+apersjox
+391/June/10
+
+5. Comparison =
+
+A comparison of the fission product releases
+predicted by each model is shown in figures 5, 6 and 7.
+The models are designated as follows:
+
+Model A: Enhanced grain growth model suggested by
+Lau & Rance (see section 3)
+
+Model B: Enhanced grain growth modelled by 400°
+temperature shift (see section 3)
+
+Model C: Enhanced vacancy production model
+suggested by Lewis et al (see section 4)
+
+In all the simulations, the initial grain size (‘do’
+in equations 4-8; ‘2a’ in equation 20) was chosen to be
+7.5 yum. The UQ) surface to volume ratio, which is used
+in the calculation of the deviation from stoichiometry
+(equations 1 and 2) was determined assuming a stack with
+diameter 1.2 cm. and length SO cm. (roughly the
+dimensions of the fuel within a CANDU fuel element).
+The resulting value for S/V is 3.37 cml.
+
+The releases plotted in figures 5, 6 and 7 were
+calculated differently for Models A & B than for Model
+C. Total releases predicted by model C are calculated with
+equation 20 using the enhanced diffusion coefficient
+(equation 18) which accounts for both ‘normal’ diffusion
+and steam enhancement. In models A & B only the
+releasés due to steam enhanced grain growth are
+calculated using equation 8. In order to compare the
+models, the fractional release by diffusion in
+stoichiometric UO, (i.e. using equation 20 with the
+unmodified ANS 5.4 diffusion coefficient) was also
+calculated and superimposed on the oxidation-induced
+release for models A & B.
+
+Figure 5 shows the predictions of each model at
+constant temperature for a hold time of 200 seconds.
+Model C predicts more release than both A and B at
+temperatures above about 1500° C. Below this
+temperature, the predicted releases are approximately the
+same for all three models. Above 1800° C, Model C
+predicts 100 % release of fission products after 200
+seconds. Models B & C releases reach 100 % at higher
+temperatures.
+
+Figure 6 show the variation of releases with time
+at 1400° C over one hour (3600 seconds). The predicted
+releases are low (< 10%) forall models until about 900
+seconds after the start of oxidation. For the first 900
+seconds, Model B predicts higher releases than the other
+two models (e.g. -7% for Model B vs ~5% for the other
+twoatt=420 seconds). Afterwards, Model C predictions
+are higher and Models A and B predict slower rates of
+release than model C. After one hour at 1400° C, Model
+C predicts slightly less than double the fractional release
+calculated using Model B.Figure7 shows the releases for
+isothermal oxidation at 1800° C over 1 hour. Model Cpredicts 100 % release within roughly 6 minutes.
+Calculations using Model B also result in 100 % release,
+but only after about 14 minutes.
+
+Model C predicts a release rate which is
+increasing with time over the time period shown in figure
+6. This is to be expected because the deviation from
+stoichiometry of the fuel is increasing (see figure 3) and
+it is still far from reaching its equilibrium composition.
+Moreover, the fractional releases are low, therefore there
+remains an abundant supply of fission gas available for
+release. The two other models predict decreasing rates of
+release. The curves in figure 2 show that the grain growth
+rate slows down with time and this is reflected in the
+fractional release rate which is also decreasing with time
+(e.g figures 6 & 7).
+
+6. Conclusions
+
+Two very different approaches to modelling
+fission product releases from UO} fuel which is exposed
+to steam were compared. One approach relates the
+observed increase in releases to enhanced grain growth
+and the other to enhanced diffusion of gas atoms and
+bubbles through the grain. Two different models which
+are based on the first approach were used (Models A and
+B), along with one which was based on the second
+approach (Model C).
+
+The comparison revealed some similarities in
+the trends predicted by the three models, particularly in
+the short term. At low temperatures and for short periods
+of time, the models predict roughly the same fractional
+release.
+
+At relatively high temperatures, model C
+predicts faster release of fission products than the other
+two. Over long periods of time the accumulated releases
+calculated using model C are also greater, even at low
+temperatures.
+
+7. References
+
+1. J.HLK. Lau and EF Rance, ‘‘Modelling Transient
+Fission Product Release from UO2 Fuel’’,
+Presented at the 6“ CNS Conference, Ottawa,
+Canada, 1985.
+
+2. J.C. Killeen and J.A. Tumbull, ‘An Experimental
+and Theoretical Treatment of the Release of 8>Kr
+from Hyperstoichiometric Uranium Dioxide”,
+Procedures of the Workshop on Chemical
+Reactivity of Oxide Fuel and Fission Product
+Release, Gloucestershire, England, April 7-9,
+1987, p. 387-404, Central Electricity Generating
+Board.
+
+3. G.T. Lawrence, *A Review of the Diffusion
+Coefficient of Fission—Product Rare Gases in
+
+10.
+-.- WAPD-184, Paris Fuel Element Technology
+11.
+
+12,
+
+14,
+
+15.
+
+Uranium Dioxide”, Journal of Nuclear Matertals,
+71, (1978) 195-218.
+
+M.J.F. Nodey and LJ. Hastings, “A
+Microstructure-Dependent Model for Fission
+Product Gas Release and Swelling in UO) Fuel”,
+Nuclear Engineering and Design, Vol. 56, pp. 163,
+1980.
+
+BJ. Lewis, F.C. Iglesias, D.S. Cox and E.
+Gheorghiu, “A Model for Fission Gas Release and
+Fuel Oxidation Behaviour for Defected Fuel
+Elements”, Nuclear Technology, Vol. 92,
+December 1990.
+
+J.T. Bittel, L.H. Sjohdal and J.F. White, “Steam
+Oxidation Kinetics and Oxygen Diffusion in UO2
+at High Temperatures”, Journal of the American
+Ceramic Society, Volume 52, Number 8, 446,
+(1968).
+
+RE. Carter, K.W. Lay, “Surface—Controlled
+Oxidation-Reduction of UO”, Journal of
+Nuclear Materials, 36, (1970) 77.
+
+D.R. Olander, “Oxidation of UO2 by High
+Pressure Steam”, Nuclear Technology, Vol. 74,
+August 1986.
+
+D.S. Cox, F.C. Igiesias, CE.L. Hunt, N.A. Keller,
+R_D. Barrand, J.R. Mitchell and R-F. O’Connor,
+“Oxidation of UO in Air and Steam with
+Relevance to Fission Product Release”,
+Proceedings of the Symposium on Chemical
+Phenomena Associated with Radioactivity
+Releases During Severe Nuclear Plant Accidents,
+Anaheim, California, U.S.A., September 9-12,
+1986. Report NUREG/CP-0078.
+
+J. Bélie and B. Lustman, “Properties of UQ2”,
+
+Conference, 1957.
+
+D. Cubicciotti, “A Model for Release of Fission
+Gases and Volatile Fission Products from
+Irradiated UQ2 in Steam Environment”, Nuclear
+Technology, Vol. 53, April 1981.
+
+AB. Lidiard, “‘Self—Diffusion of Uranium in
+
+U0 2”, Journal of Nuclear Materials, 19, (1966)
+106-108.
+
+. “Background and Derivation of ANS-5.4 Standard
+
+Fission Product Release Model”, U.S. Nuclear
+Regulatory Commission, NUREG/CR-2507, 1982
+January.
+
+M.J.E. Notley, “ELESIM: A Computer Code for
+Predicting the Performance of Nuclear Fuel
+Elements”, Nuclear Technology, Volume 44
+(1979) 445.
+
+A.H. Booth, “A Method of Calculating Fission
+Gas Diffusion from UO? Fuel and its Application
+
+bashertaboud 5
+papersioxide/ra
+1991/June/10aasher/aboud
+
+sapersloxie/ra.
+1991/June/10
+
+to the X-2-f Loop Test”, CRDC-721, AECL No.
+496, September 1957.Figure 1 : Grain Growth Kinetics
+
+10°
+
+ 
+
+3.5 4.0 4.5 5.0 5.5 6.0
+vT* 10*K'
+
+Figure 2 : Grain Growth at 1800 and 2400 °C
+
+—~ 2400°C
+
+55 . : a
+
+Model A _-—
+
+ 
+
+50
+Model B —_
+
+   
+
+& 8
+
+Grain size (um)
+8
+
+25 < ; 2400 °C
+20 /
+/ Z - 1800°C
+15 nn
+10 & a
+1800 °C
+
+a 300 600 900 1200 1500 1800 2100 2400 2700 3000 3300. 3600
+Time (seconds)Figure 3 : UO, oxidation over 20 minutes _ Figure 4 ; H factor versus deviation trom stalchlometry
+
+  
+
+ 
+
+   
+
+0.20 4400
+Ted000"" C ‘
+TalRO0* O 1900 LEGEND
+048 1 :Ta700*C 7
+1200 16 Taz200°C ,
+0.46 Interval 100° C
+"" 1100 10
+0.14 1000 ""
+Tail?00*C 900 8
+Bo.12 ' 82
+100
+Hx) 1a
+£ 0,40 700 14
+too ‘8
+0.08 6
+800
+6.08 4o0
+TalB00* C
+0,04 400 Lp
+200 Y 5
+0.02 ‘ fo
+Ta1a00"" ¢ 100F Zea 1
+6.00 s : Tali0oes rs = r 42,4
+6 2 4 8 6 10 12 4 10 18 20 0,00 6.08 0.10 0.15 0.20 0.25
+Time (rtrAes} Deviation trom stoichiometry
+Figure 6 : Total fractlonal releases for each model
+after 200 seconds at constant temperature
+1.0
+/
+0.0
+6.8
+0.7
+i 0.8
+0.8
+OA
+0.3
+02
+O.4
+0.0 renee eenensnnecniniaytumntantniarennalinttemetscienansuceraied
+1000 1200 1400 1000 1000 2000 2200 2400
+
+Temperature {* C}Figure 6 : Releases predicted by three models at 1400° C
+
+0.9
+
+0.8
+
+0.7
+
+Fraction released
+° °
+a ao
+
+2
+am
+
+-_——
+
+--
+-_——
+
+°
+bs
+
+02
+
+ 
+
+oa 300 606 900 1200 1500 1800 2100 2400 2700 3000 3300 3600
+Time (seconds)
+
+Figure 7 : Releases predicted by three models at 1800° C
+
+Fractlon released
+°
+oO
+
+°
+»
+
+ 
+
+0 300 600 900 1200 1500 1800 2100 2400 2700 3000 3300 3600
+Time (seconds}"
