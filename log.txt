@@ -1,2 +1,0 @@
-INFO:root:hello,o
-INFO:root:hi
