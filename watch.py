@@ -102,7 +102,7 @@ def ocrPdf(src_path, q):
         
         print(f"processing: {src_path}")
 
-        #time.sleep(2) # allows for file to be copied
+        time.sleep(2) # allows for file to be copied completely before editing
         tmpDir = f'.\\tmp\\{filenameWoExt}'
         if not os.path.exists(tmpDir):
             os.mkdir(tmpDir)
